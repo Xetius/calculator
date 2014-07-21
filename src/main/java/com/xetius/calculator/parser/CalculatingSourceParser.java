@@ -1,7 +1,8 @@
-package com.xetius.calculator.Calculator;
+package com.xetius.calculator.parser;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Lists;
+import com.xetius.calculator.exception.InvalidStatementsException;
 
 import java.util.List;
 

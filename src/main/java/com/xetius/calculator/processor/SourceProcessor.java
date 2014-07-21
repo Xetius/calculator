@@ -1,4 +1,4 @@
-package com.xetius.calculator.Calculator;
+package com.xetius.calculator.processor;
 
 import java.io.IOException;
 import java.util.List;

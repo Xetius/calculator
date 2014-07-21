@@ -1,4 +1,4 @@
-package com.xetius.calculator.Calculator;
+package com.xetius.calculator.processor;
 
 import clover.com.google.common.io.Files;
 import com.google.common.base.Charsets;

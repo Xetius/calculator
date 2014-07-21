@@ -1,4 +1,4 @@
-package com.xetius.calculator.Calculator;
+package com.xetius.calculator.exception;
 
 public class InvalidStatementsException extends Exception {
     public static final String NO_STATEMENTS_PROVIDED = "No statements provided";

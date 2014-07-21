@@ -1,6 +1,7 @@
-package com.xetius.calculator.Calculator;
+package com.xetius.calculator.calculator;
 
 import com.google.common.collect.ImmutableMap;
+import com.xetius.calculator.processor.FileSourceProcessor;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

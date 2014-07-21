@@ -1,5 +1,7 @@
-package com.xetius.calculator.Calculator;
+package com.xetius.calculator.calculator;
 
+import com.xetius.calculator.exception.InvalidStatementsException;
+import com.xetius.calculator.parser.CalculatingSourceParser;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
