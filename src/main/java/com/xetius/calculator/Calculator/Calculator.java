@@ -1,6 +1,8 @@
 package com.xetius.calculator.Calculator;
 
+import java.io.IOException;
+
 public interface Calculator {
-    void setArguments(String[] args);
-    String calculate();
+    void setParameters(String[] args);
+    long calculate() throws IOException, InvalidStatementsException;
 }
