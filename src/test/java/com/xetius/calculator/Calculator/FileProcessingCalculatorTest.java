@@ -45,6 +45,7 @@ public class FileProcessingCalculatorTest {
 
     @Before
     public void setUp() throws InvalidStatementsException {
+        calculator = new FileProcessingCalculator(processor, parser);
         given(parser.parse(anyListOf(String.class))).willReturn(15L);
     }
 
