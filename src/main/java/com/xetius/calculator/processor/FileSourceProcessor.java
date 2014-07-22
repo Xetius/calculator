@@ -1,6 +1,6 @@
 package com.xetius.calculator.processor;
 
-import clover.com.google.common.io.Files;
+import com.google.common.io.Files;
 import com.google.common.base.Charsets;
 import com.google.common.io.Resources;
 
@@ -32,7 +32,7 @@ public class FileSourceProcessor implements SourceProcessor {
         try {
             URL url = Resources.getResource(fileName);
             return Resources.readLines(url, DEFAULT_ENCODING);
-        } catch (IOException e) {
+        } catch (IOException | IllegalArgumentException e) {
             return null;
         }
     }
